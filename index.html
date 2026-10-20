@@ -1,34 +1,122 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>RT GAMING STUDIO</title><link rel="stylesheet" href="style.css"></head><body>
-<div id="loader" aria-live="polite"><span class="s s1">◆</span><span class="s s2">●</span><span class="s s3">▲</span>
-<div class="logo big">RT</div><h2>RT GAMING STUDIO</h2><p>Preparing Your Playground...</p><div class="bar"><i></i></div></div>
-<header><a class="brand" href="#home"><span class="logo">RT</span><b>RT GAMING STUDIO</b></a>
-<button id="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
-<nav id="nav" aria-label="Main"><a href="#home">Home</a><a href="#games">Games</a><a href="#categories">Categories</a><a href="#leaderboard">Leaderboard</a><a href="#about">About</a></nav>
-<div class="hr"><input id="q" type="search" placeholder="Search games…" aria-label="Search games"><span class="avatar" aria-hidden="true">🙂</span><a class="btn" href="#games">Play Now</a></div></header>
-<main>
-<section id="home" class="hero"><div><span class="badge">WELCOME TO YOUR PLAYGROUND</span><h1>One Studio. <em>Endless Fun.</em></h1>
-<p>Discover your next favorite game. Challenge yourself, beat your best scores, and enjoy a whole world of games in one place.</p>
-<div class="row"><a class="btn" href="#games">Explore Games</a><button class="btn ghost" id="rand">Play Random Game</button></div>
-<small id="tagline"></small></div>
-<div class="art" aria-hidden="true"><span style="--d:0s">🎮</span><span style="--d:.6s">🎲</span><span style="--d:1.2s">🃏</span><span style="--d:1.8s">🧩</span><span style="--d:2.4s">⭐</span><span style="--d:3s">🎯</span></div></section>
-<section id="games"><h2>Explore Our Games</h2><p class="sub">Pick a game, jump in, and have fun.</p>
-<div id="categories" class="chips" role="group" aria-label="Categories"></div><p id="count" class="sub" aria-live="polite"></p>
-<div id="grid" class="grid"></div><div id="empty" class="empty" hidden><p>😕 No games match your search.</p><button class="btn" id="clear">Clear search</button></div></section>
-<section class="feat"><div><span class="badge">GAME OF THE DAY</span><h2 id="fT"></h2><p id="fD"></p><div class="row"><button class="btn" id="fP">Play Now</button><button class="btn ghost" id="rand2">🎲 Random</button></div></div><div class="fi" id="fI" aria-hidden="true"></div></section>
-<section id="leaderboard"><h2>Leaderboard &amp; Stats</h2><p class="sub">Local to this browser and device — not a global ranking.</p><div id="board" class="stats"></div><button class="btn ghost" id="reset">Reset local statistics</button></section>
-<section id="about"><h2>About RT Gaming Studio</h2><p class="sub">RT Gaming Studio brings your favorite mini-games together in one playful digital playground. Explore puzzles, board games, arcade challenges, and strategy games — all in one place.</p>
-<div class="grid sm"><div class="card"><h3>⚡ Instant Play</h3><p>No installs. Just click and play.</p></div><div class="card"><h3>🗂️ Game Categories</h3><p>Puzzle, board, arcade and more.</p></div><div class="card"><h3>📱 Mobile Friendly</h3><p>Touch controls where it matters.</p></div><div class="card"><h3>🏆 Save Best Scores</h3><p>Stored locally in your browser.</p></div></div></section>
-</main>
-<footer class="ft"><div class="ft-in">
-<div class="ft-brand"><a class="brand" href="#home"><span class="logo">RT</span><b>RT GAMING STUDIO</b></a><p>One playful playground for puzzles, board games, arcade challenges and strategy. Jump in and beat your best.</p><span class="badge">Made for the love of play.</span></div>
-<div class="ft-col"><h4>Quick Links</h4><a href="#home">Home</a><a href="#games">Games</a><a href="#leaderboard">Leaderboard</a><a href="#about">About</a></div>
-<div class="ft-col"><h4>Categories</h4><a href="#games">Puzzle</a><a href="#games">Board Games</a><a href="#games">Arcade</a><a href="#games">Strategy</a><a href="#games">Casual</a></div>
-<div class="ft-badge"><img src="Rishabh_Badge.png" alt="Shah Rishabh – Full Stack Developer badge" width="130" height="130" loading="lazy"></div>
-</div><div class="ft-bar"><span>© <span id="yr"></span> RT Gaming Studio. All rights reserved.</span><span>Designed &amp; Developed by <b>RT1504</b></span></div></footer>
-<div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mt"><div class="panel">
-<div class="mh"><h2 id="mt"></h2><button class="x" id="mx" aria-label="Close game">✕</button></div><p id="mi" class="sub"></p>
-<div id="area"></div>
-<div class="row c"><button class="btn" id="mr">↻ Restart</button><button class="btn ghost" id="mp" hidden>⏸ Pause</button><button class="btn ghost" id="mb">← Back to Games</button></div></div></div>
-<script src="script.js"></script></body></html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>RT GAMING STUDIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loader" aria-live="polite"><span class="s s1">◆</span><span class="s s2">●</span><span
+            class="s s3">▲</span>
+        <div class="logo big">RT</div>
+        <h2>RT GAMING STUDIO</h2>
+        <p>Preparing Your Playground...</p>
+        <div class="bar"><i></i></div>
+    </div>
+    <header><a class="brand" href="#home"><span class="logo">RT</span><b>RT GAMING STUDIO</b></a>
+        <button id="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav id="nav" aria-label="Main"><a href="#home">Home</a><a href="#games">Games</a><a
+                href="#categories">Categories</a><a href="#leaderboard">Leaderboard</a><a href="#about">About</a></nav>
+        <div class="hr"><input id="q" type="search" placeholder="Search games…" aria-label="Search games"><span
+                class="avatar" aria-hidden="true">🙂</span><a class="btn" href="#games">Play Now</a></div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div><span class="badge">WELCOME TO YOUR PLAYGROUND</span>
+                <h1>One Studio. <em>Endless Fun.</em></h1>
+                <p>Discover your next favorite game. Challenge yourself, beat your best scores, and enjoy a whole world
+                    of games in one place.</p>
+                <div class="row"><a class="btn" href="#games">Explore Games</a><button class="btn ghost" id="rand">Play
+                        Random Game</button></div>
+                <small id="tagline"></small>
+            </div>
+            <div class="art" aria-hidden="true"><span style="--d:0s">🎮</span><span style="--d:.6s">🎲</span><span
+                    style="--d:1.2s">🃏</span><span style="--d:1.8s">🧩</span><span style="--d:2.4s">⭐</span><span
+                    style="--d:3s">🎯</span></div>
+        </section>
+        <section id="games">
+            <h2>Explore Our Games</h2>
+            <p class="sub">Pick a game, jump in, and have fun.</p>
+            <div id="categories" class="chips" role="group" aria-label="Categories"></div>
+            <p id="count" class="sub" aria-live="polite"></p>
+            <div id="grid" class="grid"></div>
+            <div id="empty" class="empty" hidden>
+                <p>😕 No games match your search.</p><button class="btn" id="clear">Clear search</button>
+            </div>
+        </section>
+        <section class="feat">
+            <div><span class="badge">GAME OF THE DAY</span>
+                <h2 id="fT"></h2>
+                <p id="fD"></p>
+                <div class="row"><button class="btn" id="fP">Play Now</button><button class="btn ghost" id="rand2">🎲
+                        Random</button></div>
+            </div>
+            <div class="fi" id="fI" aria-hidden="true"></div>
+        </section>
+        <section id="leaderboard">
+            <h2>Leaderboard &amp; Stats</h2>
+            <p class="sub">Local to this browser and device — not a global ranking.</p>
+            <div id="board" class="stats"></div><button class="btn ghost" id="reset">Reset local statistics</button>
+        </section>
+        <section id="about">
+            <h2>About RT Gaming Studio</h2>
+            <p class="sub">RT Gaming Studio brings your favorite mini-games together in one playful digital playground.
+                Explore puzzles, board games, arcade challenges, and strategy games — all in one place.</p>
+            <div class="grid sm">
+                <div class="card">
+                    <h3>⚡ Instant Play</h3>
+                    <p>No installs. Just click and play.</p>
+                </div>
+                <div class="card">
+                    <h3>🗂️ Game Categories</h3>
+                    <p>Puzzle, board, arcade and more.</p>
+                </div>
+                <div class="card">
+                    <h3>📱 Mobile Friendly</h3>
+                    <p>Touch controls where it matters.</p>
+                </div>
+                <div class="card">
+                    <h3>🏆 Save Best Scores</h3>
+                    <p>Stored locally in your browser.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="ft">
+        <div class="ft-in">
+            <div class="ft-brand"><a class="brand" href="#home"><span class="logo">RT</span><b>RT GAMING STUDIO</b></a>
+                <p>One playful playground for puzzles, board games, arcade challenges and strategy. Jump in and beat
+                    your best.</p><span class="badge">Made for the love of play.</span>
+            </div>
+            <div class="ft-col">
+                <h4>Quick Links</h4><a href="#home">Home</a><a href="#games">Games</a><a
+                    href="#leaderboard">Leaderboard</a><a href="#about">About</a>
+            </div>
+            <div class="ft-col">
+                <h4>Categories</h4><a href="#games">Puzzle</a><a href="#games">Board Games</a><a
+                    href="#games">Arcade</a><a href="#games">Strategy</a><a href="#games">Casual</a>
+            </div>
+            <div class="ft-badge"><img src="Rishabh_Badge.png" alt="Shah Rishabh – Full Stack Developer badge"
+                    width="130" height="130" loading="lazy"></div>
+        </div>
+        <div class="ft-bar"><span>© <span id="yr"></span> RT Gaming Studio. All rights reserved.</span><span>Designed
+                &amp; Developed by <b>RT1504</b></span></div>
+    </footer>
+    <div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mt">
+        <div class="panel">
+            <div class="mh">
+                <h2 id="mt"></h2><button class="x" id="mx" aria-label="Close game">✕</button>
+            </div>
+            <p id="mi" class="sub"></p>
+            <div id="area"></div>
+            <div class="row c"><button class="btn" id="mr">↻ Restart</button><button class="btn ghost" id="mp" hidden>⏸
+                    Pause</button><button class="btn ghost" id="mb">← Back to Games</button></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
