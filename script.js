@@ -176,7 +176,7 @@ function closeGame(){stop();$('#modal').hidden=true;document.body.style.overflow
 document.addEventListener('DOMContentLoaded',()=>{
  setTimeout(()=>$('#loader').classList.add('off'),2400);
  $('#tagline').textContent=`${GAMES.length} Games • One Playground • Endless Fun`;$('#yr').textContent=new Date().getFullYear();
- $('.chips').innerHTML=CATS.map(c=>`<button>${c}</button>`).join('');$('#fc').textContent='Puzzle · Board Games · Arcade · Strategy · Casual';
+ $('.chips').innerHTML=CATS.map(c=>`<button>${c}</button>`).join('');
  $('.chips').onclick=e=>{if(e.target.tagName==='BUTTON'){cat=e.target.textContent;renderGrid()}};
  $('#q').oninput=e=>{query=e.target.value;renderGrid();if(query)location.hash='#games'};
  $('#clear').onclick=()=>{query='';$('#q').value='';cat='All Games';renderGrid()};
