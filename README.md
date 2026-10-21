@@ -21,21 +21,8 @@
 <br/>
 
 <a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/"><img src="https://img.shields.io/badge/🎮_PLAY_NOW-Open_The_Studio-FF2E93?style=for-the-badge"/></a>
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#games"><img src="https://img.shields.io/badge/🕹_EXPLORE_GAMES-FFD600?style=for-the-badge&logoColor=black"/></a>
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#leaderboard"><img src="https://img.shields.io/badge/🏆_LEADERBOARD-00C2E0?style=for-the-badge"/></a>
-
-<br/>
-
 <a href="https://github.com/shahrishabh1513-jsk/RT_GAMING_STUDIO"><img src="https://img.shields.io/badge/REPOSITORY-View_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/shahrishabh1513-jsk/RT_GAMING_STUDIO/stargazers"><img src="https://img.shields.io/badge/⭐_STAR-Support_This_Repo-1B1F4B?style=for-the-badge"/></a>
-
-<br/><br/>
-
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#games"><img src="https://img.shields.io/badge/🧩_PUZZLE-FF2E93?style=flat-square"/></a>
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#games"><img src="https://img.shields.io/badge/♟_BOARD_GAMES-FFD600?style=flat-square&logoColor=black"/></a>
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#games"><img src="https://img.shields.io/badge/👾_ARCADE-00C2E0?style=flat-square"/></a>
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#games"><img src="https://img.shields.io/badge/🎯_STRATEGY-1B1F4B?style=flat-square"/></a>
-<a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/#games"><img src="https://img.shields.io/badge/🎲_CASUAL-FF2E93?style=flat-square"/></a>
 
 <br/><br/>
 
@@ -62,7 +49,6 @@
 <div align="center">
 
 [![Preview](https://img.shields.io/badge/🔍_Preview-1B1F4B?style=for-the-badge)](#-live-preview)
-[![Screens](https://img.shields.io/badge/📸_Screens-FF2E93?style=for-the-badge)](#-game-screens-output)
 [![About](https://img.shields.io/badge/📖_About-FFD600?style=for-the-badge&logoColor=black)](#-about-the-project)
 [![Features](https://img.shields.io/badge/✨_Features-00C2E0?style=for-the-badge)](#-key-features)
 [![Sections](https://img.shields.io/badge/🧩_Sections-1B1F4B?style=for-the-badge)](#-site-sections)
@@ -103,91 +89,6 @@
 > 💡 The preview is captured live by a free screenshot service. If it shows the "Preparing Your Playground…" loading screen, refresh once and it fills in.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFD600,50:FF2E93,100:1B1F4B&height=4&section=header"/></div>
-
-## 📸 Game Screens (Output)
-
-<table width="100%">
-<tr>
-<td width="33%" valign="top" align="center">
-
-### 🏠 Home
-
-<table width="100%">
-<tr><td>🔴 🟡 🟢 &nbsp; <sub>Hero &amp; welcome</sub></td></tr>
-<tr><td align="center"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fshahrishabh1513-jsk.github.io%2FRT_GAMING_STUDIO%2F?w=800" width="100%" alt="Home screen output"/></td></tr>
-</table>
-
-<sub>One Studio. Endless Fun.</sub>
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 🎮 Games
-
-<table width="100%">
-<tr><td>🔴 🟡 🟢 &nbsp; <sub>Explore Our Games</sub></td></tr>
-<tr><td align="center"><img src="./screenshots/games.png" width="100%" alt="Games grid output"/></td></tr>
-</table>
-
-<sub>Game grid with Game of the Day</sub>
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 🧩 Categories
-
-<table width="100%">
-<tr><td>🔴 🟡 🟢 &nbsp; <sub>Browse by type</sub></td></tr>
-<tr><td align="center"><img src="./screenshots/categories.png" width="100%" alt="Categories output"/></td></tr>
-</table>
-
-<sub>Puzzle, board, arcade &amp; more</sub>
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top" align="center">
-
-### 🏆 Leaderboard
-
-<table width="100%">
-<tr><td>🔴 🟡 🟢 &nbsp; <sub>Leaderboard &amp; stats</sub></td></tr>
-<tr><td align="center"><img src="./screenshots/leaderboard.png" width="100%" alt="Leaderboard output"/></td></tr>
-</table>
-
-<sub>Local best scores &amp; stats</sub>
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 🎲 Gameplay
-
-<table width="100%">
-<tr><td>🔴 🟡 🟢 &nbsp; <sub>Playing a game</sub></td></tr>
-<tr><td align="center"><img src="./screenshots/gameplay.png" width="100%" alt="Gameplay output"/></td></tr>
-</table>
-
-<sub>Restart &amp; Back to Games controls</sub>
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 💬 About
-
-<table width="100%">
-<tr><td>🔴 🟡 🟢 &nbsp; <sub>About RT Gaming Studio</sub></td></tr>
-<tr><td align="center"><img src="./screenshots/about.png" width="100%" alt="About section output"/></td></tr>
-</table>
-
-<sub>Instant play, categories &amp; scores</sub>
-
-</td>
-</tr>
-</table>
-
-> 📌 **Add your screenshots:** create a `screenshots/` folder in the repo and save five PNGs there — `games.png`, `categories.png`, `leaderboard.png`, `gameplay.png` and `about.png`. The Home box is captured live and needs no file.
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1B1F4B,50:FF2E93,100:FFD600&height=4&section=header"/></div>
 
 ## 📖 About The Project
 
@@ -373,13 +274,6 @@ RT_GAMING_STUDIO/
 ├── style.css             # Styles
 ├── script.js             # Games, scores & navigation
 ├── Rishabh_Badge.png     # Footer badge
-│
-├── screenshots/          # README output screenshots (add these)
-│   ├── games.png
-│   ├── categories.png
-│   ├── leaderboard.png
-│   ├── gameplay.png
-│   └── about.png
 │
 └── README.md
 ```
