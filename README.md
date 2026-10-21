@@ -24,15 +24,7 @@
 <a href="https://github.com/shahrishabh1513-jsk/RT_GAMING_STUDIO"><img src="https://img.shields.io/badge/REPOSITORY-View_Code-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/shahrishabh1513-jsk/RT_GAMING_STUDIO/stargazers"><img src="https://img.shields.io/badge/⭐_STAR-Support_This_Repo-1B1F4B?style=for-the-badge"/></a>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/GAMES-30%2B-FF2E93?style=for-the-badge&labelColor=1B1F4B"/>
-<img src="https://img.shields.io/badge/CATEGORIES-5-FFD600?style=for-the-badge&labelColor=1B1F4B"/>
-<img src="https://img.shields.io/badge/INSTALL-None-00C2E0?style=for-the-badge&labelColor=1B1F4B"/>
-<img src="https://img.shields.io/badge/SCORES-Saved_Locally-FF2E93?style=for-the-badge&labelColor=1B1F4B"/>
-<img src="https://img.shields.io/badge/DEVICE-Mobile_Friendly-FFD600?style=for-the-badge&labelColor=1B1F4B"/>
-
-<br/><br/>
+<br/>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
