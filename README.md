@@ -78,7 +78,6 @@
 
 </div>
 
-> 💡 The preview is captured live by a free screenshot service. If it shows the "Preparing Your Playground…" loading screen, refresh once and it fills in.
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFD600,50:FF2E93,100:1B1F4B&height=4&section=header"/></div>
 
@@ -92,7 +91,6 @@
 
 There's nothing to install and nothing to sign up for. Open the page, pick a game (or let it pick one for you), beat your best score, and come back for the next one. Best scores and stats are kept **locally in your browser**.
 
-> 💡 Built for the love of play — one playful playground, no frameworks, no setup.
 
 </td>
 <td width="40%" valign="top">
