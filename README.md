@@ -16,7 +16,7 @@
 
 <h3>One Studio. Endless Fun. &nbsp; 🎮 🎲 🃏 🧩 ⭐ 🎯</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=FF2E93&center=true&vCenter=true&width=760&lines=30%2B+Interactive+Mini+Games+in+One+Place;Puzzle+Board+Arcade+Strategy+and+Casual;No+Installs.+Just+Click+and+Play.;Built+with+HTML+CSS+and+JavaScript" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=FF2E93&center=true&vCenter=true&width=760&lines=5%2B+Interactive+Mini+Games+in+One+Place;Puzzle+Board+Arcade+and+Casual+Games;No+Installs.+Just+Click+and+Play.;Built+with+HTML+CSS+and+JavaScript" alt="Typing SVG" />
 
 <br/>
 
