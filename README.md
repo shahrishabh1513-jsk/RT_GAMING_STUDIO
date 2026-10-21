@@ -65,7 +65,7 @@
 <tr>
 <td align="center">
 <a href="https://shahrishabh1513-jsk.github.io/RT_GAMING_STUDIO/" target="_blank">
-<img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fshahrishabh1513-jsk.github.io%2FRT_GAMING_STUDIO%2F?w=1400" width="100%" alt="RT GAMING STUDIO home page"/>
+<img src="https://github.com/user-attachments/assets/c65678ad-1e48-423f-80d9-e2e4a9485c1d" width="100%" alt="RT GAMING STUDIO home page"/>
 </a>
 </td>
 </tr>
