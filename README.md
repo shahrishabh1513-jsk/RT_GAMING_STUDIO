@@ -260,10 +260,10 @@ flowchart LR
 ```bash
 RT_GAMING_STUDIO/
 │
-├── index.html            # The whole studio — all sections on one page
-├── style.css             # Styles
-├── script.js             # Games, scores & navigation
-├── Rishabh_Badge.png     # Footer badge
+├── index.html            
+├── style.css             
+├── script.js             
+├── Rishabh_Badge.png    
 │
 └── README.md
 ```
@@ -340,7 +340,6 @@ cd RT_GAMING_STUDIO
 <a href="mailto:shahrishu1515@gmail.com"><img src="https://img.shields.io/badge/Email-FFD600?style=for-the-badge&logo=gmail&logoColor=black"/></a>
 <a href="https://github.com/shahrishabh1513-jsk"><img src="https://img.shields.io/badge/GitHub-1B1F4B?style=for-the-badge&logo=github&logoColor=white"/></a>
 
-<br/><br/>
 
 ### ⭐ If you enjoyed the games, give it a star!
 
